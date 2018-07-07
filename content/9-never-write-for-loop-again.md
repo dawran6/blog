@@ -5,7 +5,6 @@ Tags: python, best-practice, tip
 Slug: never-write-for-loops
 Authors: Daw-Ran Liou
 Summary: Challenge yourself to use awesome language features instead of for-loops
-Cover: http://critical-thinkers.com/wp-content/uploads/2015/01/shutterstock_208347706.jpg
 
 This is a challenge. I challenge you to avoid writing for-loops in every scenario.
 Also, I challenge you to find the scenarios that are so freaking hard to write
