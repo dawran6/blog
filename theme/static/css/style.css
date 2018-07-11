@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather+Sans');
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather+Sans");
 :root {
   --primary-color: #d0d3c5;
   --secondary-color: #08708a;
@@ -6,7 +6,7 @@
   --forth-color: #56b1bf;
   --fifth-color: #032b2f;
   --main-font: "Crimson Text", serif;
-  --secondary-font: 'Merriweather Sans', sans-serif;
+  --secondary-font: "Merriweather Sans", sans-serif;
 }
 
 *,
@@ -43,8 +43,8 @@ header {
 }
 
 header h1 {
-    color: var(--fifth-color);
-    margin: .5em auto;
+  color: var(--fifth-color);
+  margin: 0.5em auto;
 }
 
 .nav-toggle {
@@ -120,11 +120,11 @@ nav a:hover {
   color: var(--third-color);
 }
 
-.nav-toggle:checked~nav {
+.nav-toggle:checked ~ nav {
   transform: scale(1, 1);
 }
 
-.nav-toggle:checked~nav a {
+.nav-toggle:checked ~ nav a {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
 }
@@ -134,7 +134,6 @@ nav a:hover {
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
-  place-items: center;
 }
 
 article {
@@ -144,8 +143,8 @@ article {
 }
 
 .article {
-  /* display: flex;
-  flex-direction: column; */
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .article__title {
@@ -171,11 +170,14 @@ article {
 }
 
 .article__link {
+  display: inline-block;
   color: var(--secondary-color);
-  opacity: .75;
+  opacity: 0.75;
+  margin-bottom: 20px;
 }
 
 hr {
+  margin-top: 20px;
   border: 0;
   height: 1px;
   background: #333;
