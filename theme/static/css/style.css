@@ -124,7 +124,7 @@ article {
   padding: 3rem;
 }
 
-article h1 {
+article h2 a {
   color: var(--fifth-color);
 }
 
