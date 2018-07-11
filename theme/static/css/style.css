@@ -12,11 +12,12 @@
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
   font-family: var(--main-font);
   font-weight: 400;
   color: #222222;
@@ -42,7 +43,8 @@ header {
 }
 
 header h1 {
-  /*   color: var(--third-color); */
+    color: var(--fifth-color);
+    margin: .5em auto;
 }
 
 .nav-toggle {
@@ -97,12 +99,11 @@ nav {
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
 nav li {
+  margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 1em;
 }
@@ -143,18 +144,20 @@ article {
 }
 
 .article {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .article__title {
+}
+
+.article__title-link {
   color: var(--fifth-color);
   font-family: var(--secondary-font);
-  font-size: 1em;
+  /* font-size: 1em; */
 }
 
 .article__timestamp {
-  margin: .25em 0;
 }
 
 .article__img-container {
@@ -221,7 +224,6 @@ footer li a {
   }
   nav li {
     margin-left: 3em;
-    margin-bottom: 0;
   }
   nav a {
     opacity: 1;
